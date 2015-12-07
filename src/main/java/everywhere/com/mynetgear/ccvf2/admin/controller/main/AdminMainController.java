@@ -56,6 +56,8 @@ public class AdminMainController {
 		commonCodeService.callCodeSettingPage(mav);
 		return mav;
 	}
+	
+	//졸려... 넘나 귀찮은 것..
 	@RequestMapping(value="/admin/commoncode/code.do", method=RequestMethod.POST)
 	public ModelAndView settingCode(HttpServletRequest request, HttpServletResponse response,CommonCodeDto dto) {
 		ModelAndView mav= new ModelAndView();
