@@ -43,7 +43,11 @@ public class AdminMainController {
 	}
 	
 	
-	
+	/*
+	 * 배고프다... 
+	 * 졸립다...
+	 * 
+	 */
 	
 	
 	@RequestMapping(value="/admin/commoncode/code.do", method=RequestMethod.GET)
