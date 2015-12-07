@@ -30,7 +30,7 @@ public class AdminMainController {
 	private CommonCodeService commonCodeService;
 
 	/**
-	 * @author 諛곗꽦�슧
+	 * @author 이것도 깨졌네!!
 	 * @createDate 2015. 12. 5.
 	 * @return
 	 */
