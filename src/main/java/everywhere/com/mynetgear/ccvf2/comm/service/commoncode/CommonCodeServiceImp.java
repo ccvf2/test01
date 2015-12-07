@@ -32,7 +32,7 @@ public class CommonCodeServiceImp implements CommonCodeService {
 		mav.addObject("codeList", list);
 		mav.setViewName("/admin/code/codeSetting");
 	}
-
+	//공통공통공통
 	@Override
 	public void callCodeSetting(ModelAndView mav) {
 		Map<String, Object> map = mav.getModelMap();
