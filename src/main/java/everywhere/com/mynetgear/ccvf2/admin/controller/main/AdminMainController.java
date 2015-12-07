@@ -16,11 +16,12 @@ import everywhere.com.mynetgear.ccvf2.comm.dto.commoncode.CommonCodeDto;
 import everywhere.com.mynetgear.ccvf2.comm.service.commoncode.CommonCodeService;
 
 /**
- * @author 배성욱
+ * @author 諛곗꽦�슧
  * @createDate 2015. 12. 5.
- * @described 관리자 메인페이지 컨트롤러
+ * @described 愿�由ъ옄 硫붿씤�럹�씠吏� 而⑦듃濡ㅻ윭
  * @reference Controller
  */
+// 컨트롤러 김성광
 @Controller
 public class AdminMainController {
 	@Autowired
@@ -29,14 +30,14 @@ public class AdminMainController {
 	private CommonCodeService commonCodeService;
 
 	/**
-	 * @author 배성욱
+	 * @author 諛곗꽦�슧
 	 * @createDate 2015. 12. 5.
 	 * @return
 	 */
 	@RequestMapping(value="/admin/main/main.do", method=RequestMethod.GET)
 	public ModelAndView mainPage() {
 		ModelAndView mav= new ModelAndView();
-		System.out.println("컨트롤러");
+		System.out.println("而⑦듃濡ㅻ윭");
 		adminMainService.mainPage(mav);
 		return mav;
 	}
@@ -54,7 +55,7 @@ public class AdminMainController {
 	@RequestMapping(value="/admin/commoncode/code.do", method=RequestMethod.POST)
 	public ModelAndView settingCode(HttpServletRequest request, HttpServletResponse response,CommonCodeDto dto) {
 		ModelAndView mav= new ModelAndView();
-		System.out.println("입력요청");
+		System.out.println("�엯�젰�슂泥�");
 		mav.addObject("request",request);
 		mav.addObject("commonCodeDto",dto);
 		commonCodeService.callCodeSetting(mav);
