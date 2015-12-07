@@ -40,7 +40,7 @@ public class CommonCodeDaoImp implements CommonCodeDao {
 	
 	
 	
-	
+	//코멘트 하나 가져오기
 	@Override
 	public CommonCodeDto getOneCommonCodeInfo(int code_no) {
 		return sqlTemplate.selectOne("select_code_info_seq", code_no);
