@@ -16,7 +16,7 @@ import everywhere.com.mynetgear.ccvf2.comm.dto.commoncode.CommonCodeDto;
 import everywhere.com.mynetgear.ccvf2.comm.service.commoncode.CommonCodeService;
 
 /**
- * @author 諛곗꽦�슧
+ * @author 김성광
  * @createDate 2015. 12. 5.
  * @described 愿�由ъ옄 硫붿씤�럹�씠吏� 而⑦듃濡ㅻ윭
  * @reference Controller
@@ -30,7 +30,7 @@ public class AdminMainController {
 	private CommonCodeService commonCodeService;
 
 	/**
-	 * @author 諛곗꽦�슧
+	 * @author 김성광
 	 * @createDate 2015. 12. 5.
 	 * @return
 	 */
