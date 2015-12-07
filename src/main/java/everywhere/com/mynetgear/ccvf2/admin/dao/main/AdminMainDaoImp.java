@@ -20,6 +20,7 @@ import org.springframework.transaction.support.DefaultTransactionDefinition;
  * @described 관리자메인 데이터베이스 작업 
  * @reference class
  * 소스트리 싫다......ㅜㅠ 이거 안하면 안되요? 하기 시러요
+ * ㅇㄹㄴㄴㅇ리ㅏ허ㅣ
  */
 @Component
 public class AdminMainDaoImp implements AdminMainDao {
